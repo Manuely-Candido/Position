@@ -1,0 +1,27 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container01{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+    background: rgb(255, 242, 125);
+}
+
+.conatiner02{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    left: 500px;
+    width: 1200px;
+    height: 1200px;
+    background: rebeccapurple;
+}
+
