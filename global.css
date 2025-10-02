@@ -6,22 +6,94 @@
     box-sizing: border-box;
 }
 
-.container01{
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    width: 400px;
-    height: 400px;
-    background: rgb(255, 242, 125);
+.RH{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
-.conatiner02{
-    position: absolute;
-    right: 100px;
-    top: 100px;
-    left: 500px;
-    width: 1200px;
-    height: 1200px;
-    background: rebeccapurple;
+.fundofoto{
+    display: flex;
+    width: 300px;
+    height: 300px;
+
 }
+
+
+.container-frases h1{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    color: #ED1C24;
+    text-align: right;
+    font-family: Arial;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.container-frases h2{
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    color: #4E4747;
+    text-align: right;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.frase-negrito{
+    margin-top: 100px;
+    color: #000;
+    text-align: right;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.container-p{
+    color: #000;
+    text-align: right;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-linha-vermelha{
+    margin-top: 80px;
+    width: 600px;
+    height: 49px;
+    flex-shrink: 0;
+    background: #ED1C24;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 23.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Logo-SESI{
+    width: 124px;
+    height: 42px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
 
